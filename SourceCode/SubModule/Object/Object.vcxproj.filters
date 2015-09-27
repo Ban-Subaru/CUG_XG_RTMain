@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MetaOsg">
+      <UniqueIdentifier>{e006a276-179e-45de-ae14-b56c3f13083a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaOsg\SRC">
+      <UniqueIdentifier>{5b964b79-6589-483b-9b76-9053c171212d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaOsg\LIB">
+      <UniqueIdentifier>{65daa785-0e34-4738-8f02-3d169bfb661e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\OBJECT\Array.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\DelaunayTriangulator.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\File.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Geometry.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Globals.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\GLU.H">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\MixinVector.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\PrimitiveSet.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\qopenglext.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec2.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec2b.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec2d.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec2f.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec2s.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec3.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec3b.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec3d.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec3f.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec3s.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec4.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec4b.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec4d.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec4f.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec4s.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Vec4ub.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Drawable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\ReadDEM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\release_Helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\Tessellator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\LightControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\WriteObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\RegisterCom.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OBJECT\RTMath.h">
+      <Filter>MetaOsg\LIB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CDelaunayTriangulator.cpp">
+      <Filter>MetaOsg\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>MetaOsg\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>MetaOsg\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveSet.cpp">
+      <Filter>MetaOsg\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Tessellator.cpp">
+      <Filter>MetaOsg\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CReadDEM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWriteObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterCom.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
